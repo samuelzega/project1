@@ -20,10 +20,6 @@ header li {
     margin-right: 50px;
 }
 
-.gambar h1 {
-    display: none;
-}
-
 .badan {
     position: relative;
     width: 100%;
@@ -61,9 +57,10 @@ header li {
 }
 
 #produk {
-    width: 70%;
     display: inline-block;
-    background-color: white;
     text-align: left;
     padding: 30px;
+    position: relative;
+    background: url(img/6553562.jpg);
+    background-position: center;
 }
