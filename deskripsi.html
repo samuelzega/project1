@@ -13,23 +13,26 @@
                 <a href="#footer"><li>About Us</li></a>
           </ul>
     </header>
-<div class="badan">
+<!-- <div class="badan">
     <div class="produk">
     <diV class="kotak">
         <div class="mix grid-1"><img src="img/motor1.png" class="motor1"></div>
-        <div class="mix grid-2"><h1>SUZUKI R-GSX</div>
-        <div class="mix grid-3"><h2>Description</h2>
-                <p>Machine Type : 4 Steps, DOHC, 4 Valves, Single Cylinder
-                Transmission Type : 4 Speed
-                Gear Shifting Pattern : 1-N-2-3-4
-                Gear Reduction Ratio : 3,260 / 3,066
-                Clutch Type : Wet Multiplate With Coil Springs
-                Starter Type : Electrically
-                Spark Plug Type : NGK MR9C-9N or ND U27EPR-N9
-                Diameter x Step : 57.3 x 57.8 mm
-                Step Volume : 149.16 cc
+        <div class="mix grid-2">
+            <h1>SUZUKI R-GSX</h1></div>
+            <div class="mix grid-3">
+                <h2>Description</h2>
+                <p>
+                    Machine Type : 4 Steps, DOHC, 4 Valves, Single Cylinder
+                    Transmission Type : 4 Speed
+                    Gear Shifting Pattern : 1-N-2-3-4
+                    Gear Reduction Ratio : 3,260 / 3,066
+                    Clutch Type : Wet Multiplate With Coil Springs
+                    Starter Type : Electrically
+                    Spark Plug Type : NGK MR9C-9N or ND U27EPR-N9
+                    Diameter x Step : 57.3 x 57.8 mm
+                    Step Volume : 149.16 cc
                 </p>
-        </div>
+            </div>
         <div class="mix grid-4">
             <label for="choose" class="choose">Price : $2,404.43</label><br><br>
             <label for="qty" class="qty">QTY</label>
@@ -50,14 +53,64 @@
         </div>
     </diV>
 </div>
-<div id="footer">
-    <h3>About us.</h3>
-      <h4>Muhammad Irfan Maulana</h4>
-      <h4>Rizal Febrianto</h4>
-      <h4>Samuel Zega</h4>
-      <h4>Yoko San</h4>
-      <img src="img/rsz_fancy-lines-png-5.png" />
-  </div>
-</div>
+</div> -->
+<div class="badan">
+    <div class="produk">
+        <div class="kotak">
+            <div class="mix grid-1">
+                <img src="img/motor1.png" class="motor1" />
+            <br>
+            <form class="kotak-radio">
+                <div class="radio radio-red"><input type="radio" name="Test"> Red</input></div>
+                <div class="radio radio-blue"><input type="radio" name="Test"> Blue</input></div>
+                <div class="radio radio-white"><input type="radio" name="Test"> White</input></div>
+            </form>    
+        </div>
+        <div class="mix grid-2">
+            <h1>SUZUKI R-GSX</h1>
+        </div>
+        <div class="mix grid-3">
+            <h2>Description</h2>
+            <p>
+                Machine Type : 4 Steps, DOHC, 4 Valves, Single Cylinder
+                Transmission Type : 4 Speed
+                Gear Shifting Pattern : 1-N-2-3-4
+                Gear Reduction Ratio : 3,260 / 3,066
+                Clutch Type : Wet Multiplate With Coil Springs
+                Starter Type : Electrically
+                Spark Plug Type : NGK MR9C-9N or ND U27EPR-N9
+                Diameter x Step : 57.3 x 57.8 mm
+                Step Volume : 149.16 cc
+            </p>
+        </div>
+        <div class="mix grid-4">
+            <label for="choose" class="choose">Price : $2,404.43</label><br><br>
+            <label for="qty" class="qty-label">Qty :</label><br>
+            <br>    
+                <select name="qty" id="qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select><br>
+            <br>
+            <input type="submit" name="submit" value="ADD TO CART" class="submit">
+        </div>
+        </div>
+    </div>
+    <div id="footer">
+        <h3>About us.</h3>
+        <h4>Muhammad Irfan Maulana</h4>
+        <h4>Rizal Febrianto</h4>
+        <h4>Samuel Zega</h4>
+        <h4>Yoko San</h4>
+        <img src="img/rsz_fancy-lines-png-5.png" />
+    </div>
 </body>
 </html>

@@ -17,7 +17,7 @@ header li {
 body {
     width: 100%;
     margin: 0 auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 .badan {
@@ -47,17 +47,46 @@ body {
 }
 
 .mix{
-    padding: 50px;
+    padding: 25px;
     background-color: rgb(255, 255, 255, 0.5);
-    border: solid 1px grey;
-    text-align: center;
+    /* border: solid 1px grey; */
+    /* text-align: center; */
+    border-radius: 10px;
+}
+
+.kotak-radio{
+    display: flex;
+    flex-direction: row;
+}
+
+.radio{
+    width: 25%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    /* background-color: green; */
+    padding: 15px;
     border-radius: 20px;
+    color: white;
+    font-size: 21px;
+}
+
+.radio-red{
+    background-color: red;
+}
+
+.radio-blue{
+    background-color: blue;
+}
+
+.radio-white{
+    background-color: grey;
 }
 
 .grid-1{
     grid-column: 1;
     grid-row: 1 / span 3;
-    height: 580px;
+    height: 620px;
 }
 
 .grid-2{
@@ -80,25 +109,47 @@ body {
     height: 500px;
 }
 
+h1{
+    text-align: center;
+}
+
 h1,h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+p{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 21px;
+}
+
 .submit{
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(246, 250, 217);
-    border-color: black;    
-    border-bottom-color: aliceblue;
-    border-right-color: aliceblue; 
+    color: rgb(255, 255, 255);
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-weight: bold;
+    background-color: rgb(51, 170, 27);
+    /* border-color: black;     */
+    /* border-bottom-color: aliceblue;
+    border-right-color: aliceblue;  */
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .submit:hover{
-    background-color: rgb(255, 228, 138);
+    background-color: rgb(0, 112, 15);
 }
 
-.qty{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.qty-label{
+    text-align: left;
+}
+
+#qty{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .choose{
