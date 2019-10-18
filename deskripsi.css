@@ -86,7 +86,7 @@ body {
 .grid-1{
     grid-column: 1;
     grid-row: 1 / span 3;
-    height: 620px;
+/*     height: 620px; */
 }
 
 .grid-2{
